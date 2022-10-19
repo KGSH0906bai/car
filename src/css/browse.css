@@ -1,0 +1,138 @@
+.browse {
+    background: url("../images/Browse-Bg.png") center/cover no-repeat;
+    height: 1336px;
+    padding: 154px 0 140px;
+}
+
+.browse__title {
+    font-size: 50px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 1.65px;
+    color: #35B8BE;
+}
+
+.browse__desc {
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #546285;
+    margin-top: 26px;
+}
+
+.browse__span {
+    color: #35B8BE;
+}
+
+.btn1 {
+    background: #35B8BE;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 16px 46px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.btn2 {
+    border: 1px solid rgba(97, 114, 131, 0.2);
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #222222;
+    padding: 16px 46px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    transition: all 0.5s;
+}
+
+.btn2:hover {
+    background: #35B8BE;
+    border: none;
+    color: #FFFFFF;
+}
+
+.browse__btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.browse__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.browse__card {
+    display: flex;
+    padding: 35px 26px 26px 26px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    border: 1px solid rgba(53, 184, 190, 0.15);
+    gap: 20px;
+    width: 580px;
+    height: 200px;
+    position: relative;
+}
+
+.browse__card-title {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    color: #08090A;
+    margin-bottom: 18px;
+}
+
+.browse__card-desc {
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #546285;
+    margin-bottom: 8px;
+    white-space: nowrap;
+}
+
+.browse__card-btn1 {
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #000000;
+    background: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 6px;
+    padding: 8px 26px;
+    margin-right: 8px;
+    transition: all 0.5s;
+}
+
+.browse__card-btn2 {
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #000000;
+    background: #35B8BE;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 12px;
+}
+
+.browse__card-price {
+    font-size: 15px;
+    line-height: 20px;
+    color: #35B8BE;
+    position: absolute;
+    right: 26px;
+    top: 37px;
+}
+
+.browse__text {
+    margin-left: 15px;
+}
+
+.browse .btn {
+    margin: 65px 507px 0;
+}
+
+

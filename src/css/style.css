@@ -1,0 +1,47 @@
+@import "header.css";
+@import "Delivery.css";
+@import "fresh.css";
+@import "how.css";
+@import "browse.css";
+@import "checkout.css";
+@import "store.css";
+@import "business.css";
+@import "footer.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn {
+    background: #35B8BE;
+    border-radius: 6px;
+    padding: 19px 35px 21px;
+    border: none;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background: none;
+    border: 1px solid rgba(97, 114, 131, 0.2);
+    color: #222222;
+}

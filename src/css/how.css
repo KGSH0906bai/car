@@ -1,0 +1,46 @@
+.how {
+    padding: 134px 0 ;
+}
+
+.how__row {
+    display: flex;
+}
+
+.how__title {
+    text-align: center;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: 1.65px;
+    color: #35B8BE;
+    margin-bottom: 66px;
+}
+
+.how__line {
+    background: #D1CDCD;
+    width: 100px;
+    height: 1.3px;
+    margin: 150px 0 150px;
+}
+
+.how__card {
+    text-align: center;
+}
+
+.how__img {
+    margin-bottom: 48px;
+}
+
+.how__subtitle {
+    margin-bottom: 15px;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.66px;
+    color: #08090A;
+}
+
+.how__desc {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    color: #546285;
+}
